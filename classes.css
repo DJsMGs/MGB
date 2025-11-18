@@ -63,6 +63,9 @@
   font: var(--main-font);
   float: right;
 }
+p {
+  padding-bottom: 0.5rem;
+}
 .photol-right { /* landscape 4x3 image to the right */
   float: right;
   width: 24rem;
