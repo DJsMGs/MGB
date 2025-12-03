@@ -21,7 +21,7 @@
   background-image: url('images/spiral.png');
   background-repeat: repeat-y;
   min-width: 25rem; /* Don't let the content get too narrow */
-  max-width: 60rem; /*  Don't let the content get too wide */
+  max-width: 70rem; /*  Don't let the content get too wide */
   padding: 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -58,6 +58,34 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.panel1 {
+  color: var(--panel1-text);
+  background-color: var(--panel1);
+  float: left;
+  width: 20rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow);
+}
+.panel2 {
+  background-color: var(--panel2);
+  float: left;
+  width: 20rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow);
+}
+.advert {
+  background-color: var(--advert);
+  border-style: solid;
+  borderwidth: 1px;
+  border-color: var(--advert-border);
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow);
+}
 .text-right {
   color: var(--onpage);
   font: var(--main-font);
@@ -65,6 +93,13 @@
 }
 p {
   padding-bottom: 0.5rem;
+}
+ul {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+td {
+  padding-right: 2rem;
 }
 .photol-right { /* landscape 4x3 image to the right */
   float: right;
@@ -81,6 +116,12 @@ p {
   float: left;
   width: 24rem;
   margin: 1rem 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.largephotol-left { /* landscape 4x3 image to the left */
+  float: left;
+  width: 40rem;
+  margin: 0 1rem 1rem 0;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
 .photop-right { /* portrait 3x4 image to the right */
