@@ -1,0 +1,40 @@
+/* define additional classes */
+
+.panel1 {
+  color: var(--panel1-text);
+  background-color: var(--panel1);
+  float: left;
+  width: 20rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow);
+}
+.panel2 {
+  background-color: var(--panel2);
+  float: left;
+  width: 20rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow);
+}
+.advert {
+  background-color: var(--advert);
+  border-style: solid;
+  borderwidth: 1px;
+  border-color: var(--advert-border);
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow);
+}
+.largephotol-left { /* landscape 4x3 image to the left */
+  float: left;
+  width: 40rem;
+  margin: 0 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+ul {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}

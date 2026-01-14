@@ -1,0 +1,11 @@
+/* Set MGB CSS variables */
+:root {
+  /* colours */
+  --panel1: SaddleBrown;
+  --panel2: Tan;
+  --advert: Khaki;
+  --advert-border: SaddleBrown;
+  /* fonts */
+  --panel1-font:1rem "Comic Sans MS", "Bradley Hand", sans-serif;
+  --panel1-text: white;
+}
