@@ -4,16 +4,18 @@
   color: var(--panel1-text);
   background-color: var(--panel1);
   float: left;
-  width: 20rem;
+  width: 30%;
   padding: 1rem 1rem 1rem 1rem;
+  margin-right: 1rem;
   margin-bottom: 1rem;
   box-shadow: 8px 8px 10px 4px var(--shadow);
 }
 .panel2 {
   background-color: var(--panel2);
   float: left;
-  width: 20rem;
+  width: 30%;
   padding: 1rem 1rem 1rem 1rem;
+  margin-right: 1rem;
   margin-bottom: 1rem;
   box-shadow: 8px 8px 10px 4px var(--shadow);
 }
@@ -30,7 +32,7 @@
 }
 .largephotol-left { /* landscape 4x3 image to the left */
   float: left;
-  width: 40rem;
+  width: 65%;
   margin: 0 1rem 1rem 0;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
