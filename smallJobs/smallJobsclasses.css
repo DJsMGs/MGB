@@ -1,0 +1,23 @@
+/* define additional classes */
+
+
+.photop-right { /* portrait 3x4 image to the right */
+  float: right;
+  width: 25%;
+  height: auto;
+  margin: 0 0 1rem 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.box {
+  float: right;
+  width: 18rem;
+  height: 24rem;
+  background-color: var(--panel2);
+  box-shadow: 10px 10px 5px #888888;
+  margin: 0px 0px 20px 20px;
+  padding: 25px
+}
+ul {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
