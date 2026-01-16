@@ -1,0 +1,13 @@
+/* define additional classes */
+
+
+.photol-right { /* portrait 3x4 image to the right */
+  float: right;
+  width: 35%;
+  height: auto;
+  margin: 0 0 1rem 1rem;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.indent {
+  padding-left: 0.5rem;
+}
