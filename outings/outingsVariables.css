@@ -1,0 +1,11 @@
+/* define additional variables */
+
+:root {
+  /* colours */
+  --toctext: yellow;
+  --panel: #205000;
+
+  /*  */
+  --indent: 0px;
+  --title-indent: 20px;
+}
