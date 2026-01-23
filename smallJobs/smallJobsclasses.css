@@ -10,12 +10,12 @@
 }
 .box {
   float: right;
-  width: 18rem;
+  width: 25%;
   height: 24rem;
   background-color: var(--panel2);
   box-shadow: 10px 10px 5px #888888;
   margin: 0px 0px 20px 20px;
-  padding: 25px
+  padding: 1rem;
 }
 ul {
   padding-left: 2rem;
