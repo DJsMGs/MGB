@@ -1,0 +1,25 @@
+
+table {
+  border: 3px solid;
+  border-collapse: collapse;
+  border-color: var(--heading);
+  width: auto;
+}
+th {
+  padding: 10px;
+  border: 3px solid;
+  border-collapse: collapse;
+  border-color: var(--heading);
+  vertical-align: middle;
+  text-align: left;
+}
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: var(--heading);
+  vertical-align: top;
+  text-align: left;
+}
