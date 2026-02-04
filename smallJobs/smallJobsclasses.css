@@ -8,6 +8,13 @@
   margin: 0 0 1rem 1rem;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
 }
+.photop-left { /* portrait 3x4 image to the right */
+  float: left;
+  width: 25%;
+  height: auto;
+  margin: 0 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
 .box {
   float: right;
   width: 25%;
@@ -20,4 +27,7 @@
 ul {
   padding-left: 2rem;
   padding-bottom: 1rem;
+}
+.run {
+  clear: both;
 }
