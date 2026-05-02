@@ -10,7 +10,21 @@
 }
 .photop-left { /* portrait 3x4 image to the right */
   float: left;
-  width: 25%;
+  width: 40%;
+  height: auto;
+  margin: 0 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photol-left { /* portrait 3x4 image to the right */
+  float: left;
+  width: 40%;
+  height: auto;
+  margin: 0 1rem 1rem 0;
+  box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
+}
+.photol-right { /* portrait 3x4 image to the right */
+  float: right;
+  width: 40%;
   height: auto;
   margin: 0 1rem 1rem 0;
   box-shadow: 8px 8px 10px 4px var(--shadow); /* right and bottom shadow, blur, spread and colour */
